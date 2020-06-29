@@ -5,7 +5,7 @@ import org.springframework.integration.annotation.MessagingGateway;
 /**
  * @author Amir
  */
-@MessagingGateway(defaultRequestChannel="processorChannel")
+@MessagingGateway
 public interface ProcessorGateway
     extends ProcessorApi {
 
